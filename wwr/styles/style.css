@@ -26,17 +26,18 @@ main section {
 }
 
 body {
-    background-color: #4583B0; 
+    background-color: white; 
 }
 header {
-    background-color:#E7C04B;
-}
+    background-color:#4583B0;
+}s
 nav a:hover {
     background-color: #748058;
 }
 
 .book, .join {
-    background-color: white;
+    background-color: #748058;
+    
 
 }
 
@@ -45,7 +46,7 @@ nav a:hover {
 }
 
 #background {
-    background-color: #E7C04B;
+    background-color: white;
 }
 
 .msg {
@@ -53,7 +54,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #748058;
+    background-color: white;
 }
 
 .icon {
