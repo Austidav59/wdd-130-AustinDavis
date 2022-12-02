@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/personal-site.css">
-    <title>Idaho GEMS</title>
-    
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/personal-site.css">
+        <title>Idaho GEMS</title>
+        
+    </head>
 
-<body>
-    <div class="topnav">
-        <a class="active" href="personal-site.html">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-    </div>
-    <h1>IDAHO GEMS</h1>
+    <body>
+        <header class="header">
+            <div class="topnav">
+                <a class="active" href="personal-site.html">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+        </header>
 
-    <h2>Find The Best Attractions anywhere!</h2>
+        <div class="container">
+            <div class="header">
+                <h1>IDAHO GEMS</h1>
+            </div>
 
-    <h3> Rexburg Idaho</h3>
+            <div class="attractions">
+                <h2>Find The Best Attractions anywhere!</h2>
+                <button><a href="flight-museum.html">Legacy-Flight-Museum</a></button>
+                <button><a href="bear-world.html">yellowstone Bear World</a></button>
+                <button><a href="rexburg-escape.html">rexburgre-escape</a></button>
+            </div>
 
-    <img SRC="Images/rexburg-water-tower.jpg" width="100%">
-    
-    <h4> Activities To Do!</h4>
+            <div class="location">
+                <h3> Rexburg Idaho</h3>
+            </div>
 
-    <a href="flight-museum.html">Legacy-Flight-Museum</a>
+            <div class="image">
+                <img SRC="Images/rexburg-water-tower.jpg" width="75%">
+            </div>
 
-    <a href="bear-world.html">yellowstone Bear World</a>
+            <div class="activities">
+                <h4> Activities To Do!</h4>
+            </div>
 
-    <a href="rexburg-escape.html">rexburgre-escape</a>
 
-    <textarea name="textarea" rows="5" cols="30" minlength="10" maxlength="20"></textarea>
-  
-</body>
+        </div>
+        <div class="foot">
+            <footer>
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                      <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                      </li>
+                      <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_email" />
+                      </li>
+                      <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                      </li>
+                    </ul>
+                  </form>
+            </footer>
+        </div>
+        
+    </body>
 
 </html>
