@@ -45,17 +45,22 @@ body {
     .topnav {
       background-color: #333;
       overflow: hidden;
+    
     }
     
     /* Style the links inside the navigation bar */
     .topnav a {
-      float: left;
+      float: center;
       color: #f2f2f2;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
       font-size: 17px;
+      display: inline-flex;
+  
     }
+
+    
     
     /* Change the color of links on hover */
     .topnav a:hover {
@@ -146,4 +151,9 @@ body {
 
 .flight {
   margin-bottom: 10px;
+}
+
+.bear-world {
+  margin-top: 20px;
+  display: inline-block;
 }
