@@ -2,45 +2,47 @@
 
 
 body {
-    background: burlywood;
+    background: gainsboro;
     max-width: 1200px;
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
     font-family: Alkalami, Kanit;
-    text-align: center;
+    
+
 }
 
   img {
     display: block;
-    margin: 0 auto;
-    width: 75%;
+    margin:auto;
+    width: 60%;
     border: 20px solid #ddd;
     border-radius: 70px;
     padding: 0px;
+    margin-top: 0px;
+  }
+   
+  .container .header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 30px;
+    margin-top: 10px;
+    width: 40%
+  }
   
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
-    margin-bottom: 10px;
-  }
-  h2 {
-    text-align: center;
-  }
-
-  header {
-    padding: 1em;
-    text-align: center;
-    color: var(--paragraph-color-on-color);
-    background-color: var(--paragraph-background-color);
-  }
   
   p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color);
     padding: 10px;
   }
+
+.topnav {
+  border-radius: 30px;
+}
 
     .topnav {
       background-color: #333;
@@ -49,22 +51,21 @@ body {
     }
     
     /* Style the links inside the navigation bar */
-    .topnav a {
-      float: center;
+    .topnav li {
+     
       color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
+      padding: 16px;
       text-decoration: none;
       font-size: 17px;
-      display: inline-flex;
-  
+      display: inline-block;
+    }
+    nav {
+      text-align:center;
     }
 
-    
-    
     /* Change the color of links on hover */
-    .topnav a:hover {
-      background-color: #ddd;
+    .topnav li:hover {
+      background-color: rgb(76, 76, 76);
       color: black;
     }
     
@@ -86,10 +87,14 @@ body {
     border-radius: 1em;
   }
 
-  ul {
+  .topnav ul{ 
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
   }
 
   form li + li {
@@ -147,6 +152,7 @@ body {
   }
 .attractions {
   margin-bottom: 10px;
+  width: 40%
 }
 
 .flight {
@@ -156,4 +162,22 @@ body {
 .bear-world {
   margin-top: 20px;
   display: inline-block;
+}
+
+.location {
+  display: flex;
+  font-size: 20px;
+
+}
+.location h2 {
+  padding-right: 100px;
+}
+.location h3 {
+  padding-top: 10px;
+}
+
+.words {
+  display: inline-flex;
+  margin-bottom: 0px;
+  flex-shrink: 55;
 }
