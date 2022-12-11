@@ -11,17 +11,14 @@
     </head>
 
     <body>
-        <header class="header">
-            <nav>
-                <ul class="topnav">
-                    <li href="personal-site.html">Home</li>
-                    <li href="https://www.rexburgstandardjournal.com/" target="_blank"> Rexburg News</li>
-                    <li href="bear-world.html">Bear World</li>
-                    <li href="flight-museum.html">Flight Museum</li>
-                </ul>
-            </nav>
+    
+        <div class="topnav">   
+            <a class="active" href="personal-site.html">Home</a>
+            <a href="bear-world.html">Bear World</a>
+            <a href="flight-museum.html">Flight Museum</a>
+        </div>
             
-        </header>
+
         
         <div class="container">
             <div class="header">
@@ -38,43 +35,45 @@
             </div>
         </div>
         <div>
-            <div class="activities">
+
+            <div class="attractions">
                 <h4> Activities To Do!</h4>
-                <div class="attractions">
-                    <div class="flight-b">
-                        <button><a href="flight-museum.html">Legacy-Flight-Museum</a></button>
-                    </div>
-                    
-                    <div class="bear-world">
-                        <button><a href="bear-world.html">Yellowstone Bear World</a></button>
-                    </div>
-                    
+
+                <div class="flight-b">
+                    <button><a href="flight-museum.html">Legacy-Flight-Museum</a></button>
                 </div>
+                
+                <div class="bear-world">
+                    <button><a href="bear-world.html">Yellowstone Bear World</a></button>
+                </div>
+                
             </div>
+            
         </div>
         <div class="foot">
-            <footer>
+           
+            <div class="foot">
                 <form action="/my-handling-form-page" method="post">
                     <ul>
-                      <li>
+                    <li>
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="user_name" />
-                      </li>
-                      <li>
+                    </li>
+                    <li>
                         <label for="mail">E-mail:</label>
                         <input type="email" id="mail" name="user_email" />
-                      </li>
-                      <li>
+                    </li>
+                    <li>
                         <label for="msg">Message:</label>
                         <textarea id="msg" name="user_message"></textarea>
-                      </li>
+                    </li>
                     </ul>
+                    <div class="submit">
+                        <button type="button">Submit Comment</button>
+                    </div>
                 </form>
-                
-            </footer>
-        </div>
-        <div class="submit">
-            <button type="button">Submit Comment</button>
+            </div>
+          
         </div>
     </body>
 
